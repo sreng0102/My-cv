@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: rgb(139, 232, 229);
+  text-shadow: 2px rgb(139, 232, 229, 0.5);
+}
+.overview {
+  background-image: url("https://cdn.pixabay.com/photo/2019/12/17/07/55/tunnel-4701031_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: right;
+  font-size: 4rem;
+}
+.summary {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 40%;
+  padding: 10px;
+}
+.me {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/29/13/59/girl-3272683_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 5px solid rgb(139, 232, 229);
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px rgb(139, 232, 229, 0.5);
+}
+.skills {
+  margin-top: 100px;
+  font-size: 20px;
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+.experince {
+  font-size: 20px;
+  width: 100%;
+  background-size: 50px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  gap: 20px;
+  padding: 20px;
+}
+.project {
+  margin-left: 50px;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+.project img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+.project img:hover {
+  opacity: 0.5;
+  border: 5px solid rgb(139, 232, 229);
+  border-radius: 5px;
+}
+#footer {
+  background-image: url("https://cdn.pixabay.com/photo/2021/08/31/09/54/anime-6588363_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+  height: 70vh;
+}
+.footer-wrapper {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+.footer-wrapper ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
